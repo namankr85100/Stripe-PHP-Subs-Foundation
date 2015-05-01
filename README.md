@@ -1,7 +1,6 @@
 # Responsive PHP Stripe subscription sign up page
 
-This project is based on the Stripe subscription tutorial files: https://stripe.com/docs/tutorials/subscriptions
-The front end uses the Zurb Foundation framework: http://foundation.zurb.com/
+This project is based on the Stripe subscription tutorial files: https://stripe.com/docs/tutorials/subscriptions. The front end uses the Zurb Foundation framework: http://foundation.zurb.com/
 
 To get started you need a Stripe account, your public and private keys and at least one active Stripe Plan.
 
