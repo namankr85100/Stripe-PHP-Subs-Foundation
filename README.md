@@ -8,11 +8,13 @@ This sign up page allows a customer to select their subscription from any availa
 
 In the example code I assume a paid trial is being set up so a charge of £1 is made to the card immediately. This is not related to the plan selected by the user. Since a one-off charge is being made the assumption is that the plan has a trial period assigned to it. If you want to charge the subscription cost immediately simply remove the following code from charge.php and ensure that your plans don't have trial periods.
 
+```php
 Stripe_Charge::create(array(
   "amount" => 100, # amount in pence
   "currency" => "gbp",
   "customer" => $customer->id)
 );
+```
 
 What this code doesn't do:
 - Nice error handling (in the front end or the back end)
